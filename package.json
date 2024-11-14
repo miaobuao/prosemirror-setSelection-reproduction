@@ -1,0 +1,24 @@
+{
+  "name": "prosemirror-basekeymap-reproduction",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.19",
+    "@types/lodash-es": "^4.17.12",
+    "lodash-es": "^4.17.21",
+    "prettier": "^3.3.3",
+    "prosemirror-commands": "^1.6.2",
+    "prosemirror-history": "^1.4.1",
+    "prosemirror-keymap": "^1.2.2",
+    "prosemirror-model": "^1.23.0",
+    "prosemirror-state": "^1.4.3",
+    "prosemirror-view": "^1.36.0",
+    "typescript": "^5.6.3"
+  }
+}
